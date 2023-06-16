@@ -14,7 +14,6 @@ function App() {
   }
 
   const createTask = () => {
-    console.log(taskName)
     if(!taskName){
       return
     }
